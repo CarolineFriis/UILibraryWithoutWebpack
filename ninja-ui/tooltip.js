@@ -1,5 +1,3 @@
-import './styles/tooltip.css';
-
 class Tooltip {
     constructor(element){
         this.element = element;
@@ -20,5 +18,3 @@ class Tooltip {
         })
     }
 }
-
-export { Tooltip as default };
