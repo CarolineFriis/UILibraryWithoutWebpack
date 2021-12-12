@@ -1,5 +1,3 @@
-import './styles/tabs.css';
-
 class Tabs{
     constructor(container){
         this.container = container;
@@ -30,5 +28,3 @@ class Tabs{
         content.classList.add('active');
     }
 }
-
-export{Tabs as default};
