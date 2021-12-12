@@ -1,5 +1,3 @@
-import './styles/dropdown.css';
-
 class Dropdown {
     constructor(container){
         this.container = container;
@@ -13,5 +11,3 @@ class Dropdown {
         })
     }
 }
-
-export{Dropdown as default}; 
