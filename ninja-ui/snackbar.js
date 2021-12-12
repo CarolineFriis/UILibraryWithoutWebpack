@@ -1,5 +1,3 @@
-import './styles/snackbar.css';
-
 class Snackbar{
     constructor(){
         this.snackbar = document.createElement('div');
@@ -16,5 +14,3 @@ class Snackbar{
         }, 4000)
     }
 }
-
-export {Snackbar as default};
